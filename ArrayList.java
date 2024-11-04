@@ -19,8 +19,8 @@ public class arraylist {
        
        
        // Get element
-//       int element=list.get(1);   //Its return the Index value
-//       System.out.print(element); //Expected output is:2
+       int element=list.get(1);   //Its return the Index value
+       System.out.print(element); //Expected output is:2
        
        
        
