@@ -34,22 +34,22 @@ public class hash {
 		
 		// HashSet => contain unique element...add,containkey,set.size(),remove;
 				
-//		HashSet<String> hs= new HashSet<>();
-//		LinkedHashSet<String> lhs= new LinkedHashSet<>();
-//		TreeSet<String>ts= new TreeSet<>();
-//		lhs.add("vishal");
-//		lhs.add("Peter");
-//		lhs.add("Rosers");
-//		lhs.add("Tony");
-//		
-////		Iterator it= hs.iterator();
-////		while(it.hasNext()) {
-////			System.out.println(it.next());
-////		}
-//		
-//		for(String name:lhs) {
-//			System.out.println(name);
-//		}
+		HashSet<String> hs= new HashSet<>();
+		LinkedHashSet<String> lhs= new LinkedHashSet<>();
+		TreeSet<String>ts= new TreeSet<>();
+		lhs.add("vishal");
+		lhs.add("Peter");
+		lhs.add("Rosers");
+		lhs.add("Tony");
+		
+		Iterator it= hs.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+		for(String name:lhs) {
+			System.out.println(name);
+		}
 		
        
          
