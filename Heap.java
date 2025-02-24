@@ -53,7 +53,7 @@ public class Heap {
 		 return maxvalue;
 	 }
 	 
-	 //SINK METHOD
+	 //SINK METHOD=>It help to maintain the max heap after the removing the top node ;
 	 private void sinkdown(int index) {
 		 int maxindex=index;
 		 while(true) {
