@@ -1,5 +1,4 @@
-
-import java.util.HashSet;
+import java.util.*;
 import java.util.Iterator;
 public class hashset {
 
@@ -12,18 +11,30 @@ public class hashset {
 		set.add(2);
 		set.add(3);
 		set.add(4);
+		set.add(5);
 		
+		System.out.println(set);
 		
+//		contain method
+		if(set.contains(1)) {
+			System.out.println("contains");
+		}else {
+			System.out.println("Not contains");
+		}
+//				
 		//Delete
 		set.remove(1);
-		
-		//Size
-		
-		System.out.println(set.size());
-		
+				
 		//Iterator
-		Iterator it = set.iterator();		
+		Iterator it= set.iterator();
+		
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
 
 	}
+
+
 
 }
