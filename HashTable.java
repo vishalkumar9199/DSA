@@ -68,11 +68,11 @@ public class HashTable {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
       HashTable hs= new HashTable();
-      hs.set("vishal",21);
-      hs.set("Peter", 23);
-      hs.set("Nys", 18);
+      hs.set("Apple",22);
+      hs.set("Mango", 23);
+      hs.set("Orange", 18);
       
-      System.out.println(hs.get("The "+"vishal"));
+      System.out.println(hs.get("Mango"));
       
       hs.printTable();
 	}
