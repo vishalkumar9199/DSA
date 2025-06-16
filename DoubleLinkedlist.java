@@ -75,7 +75,7 @@ public class DoubleLinkedList {
 
 	 public Node removefirsrt() {
 		 if(length==0) return null;
-		 Node temp=tail;
+		 Node temp=head;
 		 if(length==1) {
 			 head=null;
 			 tail=null;
