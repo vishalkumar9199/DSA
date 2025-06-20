@@ -54,6 +54,21 @@ public class HashTable {
 		return 0;
 	}
 
+	// key method=>to get all keys
+	
+	    public ArrayList keys(){
+	        ArrayList<String>allkeys=new ArrayList<>();
+	        for(int i=0;i<datamap.length;i++){
+	            Node temp=datamap[i];
+	            while(temp!=null){
+	                allkeys.add(temp.key);
+	                temp=temp.next;
+	            }
+	        }
+	        return allkeys;
+	    }
+
+	// printlist
 	public void printTable(){
 		for(int i=0;i<datamap.length;i++) {
 			System.out.println(i+": ");
