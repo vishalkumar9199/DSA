@@ -173,5 +173,10 @@ class Main {
       
     }
 }
-    
+
+//3 Abstraction
+def=> Abstraction hides the internal data and show only essential feature;
+
+//4 Encapsulation
+def=>It is the process where all the data member and method are stored in a single class;
     
