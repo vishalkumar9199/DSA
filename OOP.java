@@ -121,5 +121,57 @@ def=>it is the process to allow the same function name to perform different beha
 
 i> Method overloading(compile time)=>same name different parameter
     code.
+ class Main {
+     public static int add(int a,int b){
+           return a+b;
+       }
+       public static int add(int a,int b,int c){
+           return a+b+c;
+       }
+    public static void main(String[] args) {
+        int a=12;
+        int b=4;
+        int c=8;
+        System.out.println(add(a,b));
+        System.out.println(add(a,b,c));
+      
+    }
+}
+
+ii>Mthod overriding(run time)=>child class can change the behavior of a parent class function;
+code.
+ class Tv{
+    void changeChannel(){
+        System.out.println("Tv is changing the chennal");
+    }
+    void isOn(){
+        System.out.println("Tv is On");
+    }
+    void color(){
+        System.out.println("Yes it is color");
+    }
+}
+class SmartTv extends Tv{
+	@Override
+     void changeChannel(){
+        System.out.println("SmartTv is changing the chennal");
+    }
+	@Override
+    void isOn(){
+        System.out.println("SmartTv is On");
+    }
+    void browing(){
+        System.out.println("SmartTv is browsing");
+    }
+    
+}
+
+class Main {
+    public static void main(String[] args) {
+        SmartTv st = new SmartTv();
+        st.changeChannel();
+      
+    }
+}
     
     
