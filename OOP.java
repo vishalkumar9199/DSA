@@ -179,4 +179,10 @@ def=> Abstraction hides the internal data and show only essential feature;
 
 //4 Encapsulation
 def=>It is the process where all the data member and method are stored in a single class;
+
+
+                                            //ARRAY
+def=>An array is a fixed-size collection of elements of the same data type stored in contiguous memory locations.
+	//According to the array concept, an array can be defined in two ways per the memory allocation concept.
+	1.static 2.dynamic
     
