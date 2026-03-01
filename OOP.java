@@ -176,6 +176,32 @@ class Main {
 
 //3 Abstraction
 def=> Abstraction hides the internal data and show only essential feature;
+code.
+	import java.util.*;
+abstract class Shape{
+    abstract public  double perimeter();
+    abstract public double area();
+}
+class circle extends Shape{
+    double radius;
+    circle(double radius){
+        this.radius=radius;
+    }
+    public double perimeter(){
+        return 2*3.14*radius;
+    }
+    public double area(){
+        return 3.14*radius*radius;
+    }
+}
+class Main {
+  
+    public static void main(String[] args) {
+      
+      circle c1= new circle(5);
+      System.out.println(c1.perimeter());
+    }
+}
 
 //4 Encapsulation
 def=>It is the process where all the data member and method are stored in a single class;
