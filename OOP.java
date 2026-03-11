@@ -206,6 +206,44 @@ class Main {
 //4 Encapsulation
 def=>It is the process where all the data member and method are stored in a single class;
 
+//INTERFACE=>Acheivig the multiple inheritence
+class Phone{
+	void call() {
+		System.out.println("Making a call");
+	}
+	void sms() {
+		System.out.println("Send a SMS");
+	}
+}
+interface camera{
+	void click();
+	void record();
+}
+interface MusicPlayer{
+	void play();
+	void paush();
+}
+
+class SmartPhone extends Phone implements camera,MusicPlayer{
+	public void videoCall() {
+		System.out.println("VideoCall start");
+	}
+	public void click() {
+		System.out.println("camera click");
+		
+	}
+	public void record() {
+		System.out.println("recording start");
+	}
+	public void play() {
+		System.out.println("Music Played");
+	}
+	public void paush() {
+		System.out.println("Music Paushed");
+	}
+}
+
+
 
                                             //ARRAY
 def=>An array is a fixed-size collection of elements of the same data type stored in contiguous memory locations.
