@@ -120,6 +120,7 @@ class Main {
 def=>it is the process to allow the same function name to perform different behavior;
 
 i> Method overloading(compile time)=>same name different parameter
+	=>If the class contains two or more methods having the same name and different arguments then it is method overloading.
     code.
  class Main {
      public static int add(int a,int b){
@@ -139,6 +140,7 @@ i> Method overloading(compile time)=>same name different parameter
 }
 
 ii>Mthod overriding(run time)=>child class can change the behavior of a parent class function;
+=>Runtime polymorphism is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
 code.
  class Tv{
     void changeChannel(){
