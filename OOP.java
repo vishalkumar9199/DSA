@@ -251,4 +251,29 @@ class SmartPhone extends Phone implements camera,MusicPlayer{
 def=>An array is a fixed-size collection of elements of the same data type stored in contiguous memory locations.
 	//According to the array concept, an array can be defined in two ways per the memory allocation concept.
 	1.static 2.dynamic
+
+
+	//Anonnmous class
+	
+	// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+abstract class my{
+    abstract void print();
+}
+class outer{
+    public void meth(){
+        my m = new my(){
+            public void print(){
+                System.out.println("hii");
+            }
+        };
+        m.print();
+    }
+}
+class Main {
+    public static void main(String[] args) {
+       outer ou = new outer();
+       ou.meth();
+    }
+}
     
