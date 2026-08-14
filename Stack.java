@@ -1,3 +1,6 @@
+DEF->"A Stack is a linear data structure that follows the LIFO principle, which means Last In, First Out. 
+	The element inserted last is removed first. We perform insertion using push() and removal using pop(). 
+	A common real-life example is a stack of plates. In DSA, stacks are commonly used for DFS, parentheses matching, and undo operations."
 
 public class Stack {
 	private Node top;
