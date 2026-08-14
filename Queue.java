@@ -1,4 +1,7 @@
-
+DEF->"A Queue is a linear data structure that follows the FIFO principle, which means First In, First Out.
+	The element inserted first is removed first. We add elements at the rear using offer() and remove them from the front using poll().
+	A real-life example is a queue of people waiting in line. In DSA, queues are commonly used in BFS and scheduling."
+	
 public class Queue {
 	private Node first;
 	private Node last;
