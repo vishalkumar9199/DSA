@@ -1,3 +1,7 @@
+DEF->A Linked List is a linear data structure where elements are stored in nodes, and each node contains:
+1.Data — the value
+2.Reference/Pointer — points to the next node
+
 public class LINKLIST {
 	private Node head;
 	private Node tail;
