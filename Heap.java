@@ -1,3 +1,9 @@
+def=>A Heap is a special complete binary tree that follows a specific ordering rule called the heap property.
+
+There are two main types:
+1.Min Heap → smallest element is at the root
+2.Max Heap → largest element is at the root
+
 import java.util.*;
 public class Heap {
 	private List<Integer> heap;    // Create  a heap using Arraylist
