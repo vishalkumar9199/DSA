@@ -1,3 +1,8 @@
+Def=>"A graph is a non-linear data structure consisting of vertices and edges, 
+	where vertices represent objects and edges represent relationships or connections between them.
+	Graphs can be directed or undirected, weighted or unweighted, connected or disconnected. 
+	Common graph representations are adjacency matrix and adjacency list, and the two major traversal techniques are BFS and DFS."
+
 import java.util.*;
 
 public class graph {
