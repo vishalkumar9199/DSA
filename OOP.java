@@ -1,4 +1,11 @@
- CLASS=> class is a user defined data type that group data and function together into a simple unit;
+""OOPs stands for Object-Oriented Programming. It is a programming approach based on classes and objects. 
+	Java follows four major OOP principles: Encapsulation, Inheritance, Polymorphism, and Abstraction. Encapsulation provides data hiding, 
+	inheritance provides code reusability, polymorphism allows one interface or method to have multiple forms, 
+	and abstraction hides implementation details while exposing essential functionality."
+
+	
+
+CLASS=> class is a user defined data type that group data and function together into a simple unit;
 
 OBJECT=> A object is a real world entity created from a class;
 
