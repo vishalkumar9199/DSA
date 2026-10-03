@@ -284,4 +284,23 @@ class Main {
        ou.meth();
     }
 }
-    
+
+
+
+------------questions--------------
+
+	"why mutiple inhertince will not allow in java"
+	=>"Java does not support multiple inheritance through classes because it can create ambiguity when two parent classes have the same method. This is known as the Diamond Problem. However, Java supports multiple inheritance through interfaces, 
+	where the implementing class can resolve the required behavior."
+
+	
+	
+	 "What is the difference between abstract class and interface?"
+
+=>"An abstract class is used when we want to provide common state and behavior along with abstraction, 
+  whereas an interface is mainly used to define a contract that implementing classes must follow. 
+  A class can extend only one abstract class but can implement multiple interfaces."
+
+  "Why java called object oritented programm"
+
+ => Java is called an Object-Oriented Programming (OOP) language because Java programs are mainly designed around objects and classes.
