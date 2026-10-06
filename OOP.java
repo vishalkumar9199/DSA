@@ -290,7 +290,9 @@ class Main {
 ------------questions--------------
 
 	"why mutiple inhertince will not allow in java"
-	=>"Java does not support multiple inheritance through classes because it can create ambiguity when two parent classes have the same method. This is known as the Diamond Problem. However, Java supports multiple inheritance through interfaces, 
+	=>"Java does not support multiple inheritance through classes because 
+	it can create ambiguity when two parent classes have the same method. 
+	This is known as the Diamond Problem. However, Java supports multiple inheritance through interfaces, 
 	where the implementing class can resolve the required behavior."
 
 	
